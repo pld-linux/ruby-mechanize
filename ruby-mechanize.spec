@@ -1,5 +1,5 @@
 Summary:	Library for automating interaction with web pages
-Summary(pl):	Biblioteka do automatycznej interakcji ze stronami WWW
+Summary(pl.UTF-8):   Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		ruby-mechanize
 Version:	0.4.4
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Library for automating interaction with web pages.
 
-%description -l pl
+%description -l pl.UTF-8
 Biblioteka do automatycznej interakcji ze stronami WWW.
 
 %prep
