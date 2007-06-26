@@ -13,7 +13,7 @@ BuildRequires:	ruby-devel
 BuildRequires:	setup.rb = 3.3.1
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
-Requires:	ruby-web >= 1.1.0
+Requires:	ruby-hpricot
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
