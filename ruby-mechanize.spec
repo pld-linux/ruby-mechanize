@@ -1,12 +1,12 @@
 Summary:	Library for automating interaction with web pages
 Summary(pl.UTF-8):	Biblioteka do automatycznej interakcji ze stronami WWW
 Name:		ruby-mechanize
-Version:	0.6.9
+Version:	0.7.6
 Release:	1
 License:	Ruby's
 Group:		Development/Languages
 Source0:	http://gems.rubyforge.org/gems/mechanize-%{version}.gem
-# Source0-md5:	4e5d35b8f139d6a47303a00bf3b00b97
+# Source0-md5:	278a1df49f96b5ed7c2f5d4e15bf3002
 URL:		http://mechanize.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
@@ -53,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc rdoc
 %{ruby_rubylibdir}/mechanize.rb
-%{ruby_rubylibdir}/mechanize
+%{ruby_rubylibdir}/www
