@@ -10,7 +10,7 @@ Source0:	http://gems.rubyforge.org/gems/mechanize-%{version}.gem
 URL:		http://mechanize.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-BuildRequires:	setup.rb = 3.4.1
+BuildRequires:	setup.rb >= 3.4.1
 %{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 Requires:	ruby-hpricot
